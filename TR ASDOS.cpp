@@ -5,6 +5,7 @@
 
 // GUMILANG ADI SAPUTRA - 672019159
 // DENDY ILHAM NOVIADHI- 672019328
+// MUHAMMAD IRFAN FRIANA -  672018191
 void init(void);
 void tampil(void);
 void ukuran(int,int);
