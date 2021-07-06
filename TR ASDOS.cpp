@@ -1,5 +1,5 @@
 #include <windows.h>
-#ifdef _APPLE_
+#ifdef __APPLE__
 #include <GLUT/glut.h>
 #else
 #include <GL/glut.h>
@@ -10,7 +10,7 @@
 
 
 // GUMILANG ADI SAPUTRA - 672019159
-// DENDY ILHAM NOVIADHI- 672019328
+// DENDI ILHAM NOVIADHI- 672019328
 void init(void);
 void tampil(void);
 void ukuran(int,int);
@@ -1315,6 +1315,28 @@ glColor3ub			(105,105,105);
     
     
     
+    
+    
+    
+    //jalan
+    	    glBegin(GL_POLYGON);
+    glColor3ub	(128,128,128);
+    glVertex3f(100,-9.9,50);  
+    glVertex3f(100,-9.9,30.0);  
+    glVertex3f(-90,-9.9,30.0);  
+    glVertex3f(-90,-9.9,50);  
+    glEnd();
+    
+    
+    
+      	    glBegin(GL_POLYGON);
+    glColor3ub	(128,128,128);
+    glVertex3f(0.0,-9.9,30.0);  
+    glVertex3f(0.0,-9.9,17.0);  
+    glVertex3f(10,-9.9,17.0);  
+    glVertex3f(10,-9.9,30.0);  
+    glEnd();
+
     
     
     //pintu
